@@ -1,0 +1,30 @@
+#input {
+    padding: 5px;
+    margin: 10px;
+    color: #98c379;
+    border: 2px solid rgba(0x98, 0xc3, 0x79, 0.5);
+    font-weight: bold;
+    background-color: #2E3440;
+}
+#input:focus {
+    border: 2px solid rgba(0x98, 0xc3, 0x79, 0.5);
+}
+
+#inner-box {
+    color: #7aa2f7;
+    font-weight: bold;
+    background-color: #2E3440;
+}
+
+#outer-box {
+    border: 4px solid #98c379;
+    background-color: #2E3440;
+}
+
+#entry {
+    background-color: transparent;
+}
+
+#entry:selected {
+    background-color: #98c379;
+}
