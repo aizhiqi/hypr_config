@@ -1,48 +1,48 @@
 * {
-    border: none;
-    border-radius: 0;
-    font-family: "JetBrainsMono Nerd Font";
-    font-weight: bold;
-    font-size: 20px;
-    min-height: 24px;
+  border: none;
+  border-radius: 0;
+  font-family: "JetBrainsMono Nerd Font";
+  font-weight: bold;
+  font-size: 20px;
+  min-height: 24px;
 }
 
 @import "theme.css";
 
 window#waybar {
-    background: @bar-bg;
-    color: @bar-fg;
+  background: @bar-bg;
+  color: @bar-fg;
 }
 
 tooltip {
-    background: @tooltip-bg;
-    color: @tooltip-fg;
-    border-color: @tooltip-fg;
-    border-radius: 0px;
-    border-width: 2px;
-    border-style: solid;
+  background: @tooltip-bg;
+  color: @tooltip-fg;
+  border-color: @tooltip-fg;
+  border-radius: 0px;
+  border-width: 2px;
+  border-style: solid;
 }
 
 #workspaces button {
-    box-shadow: none;
-    text-shadow: none;
-    padding: 2px;
-    border-radius: 0;
-    margin: 2px;
-    animation: gradient_f 20s ease-in infinite;
-    transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682);
-    background: @wb-bg;
-    color: @wb-fg;
+  box-shadow: none;
+  text-shadow: none;
+  padding: 2px;
+  border-radius: 0;
+  margin: 2px;
+  animation: gradient_f 20s ease-in infinite;
+  transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682);
+  background: @wb-bg;
+  color: @wb-fg;
 }
 
 #workspaces button.active {
-    background: @wb-act-bg;
-    color: @wb-act-fg;
+  background: @wb-act-bg;
+  color: @wb-act-fg;
 }
 
 #workspaces button:hover {
-    background: @wb-hvr-bg;
-    color: @wb-hvr-fg;
+  background: @wb-hvr-bg;
+  color: @wb-hvr-fg;
 }
 
 #window,
@@ -54,13 +54,13 @@ tooltip {
 #workspaces,
 #tray,
 #backlight {
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-    border-radius: 0px;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  border-radius: 0px;
 }
 
 #tray {
-    border-radius: 0px;
-    margin-right: 2px;
+  border-radius: 0px;
+  margin-right: 2px;
 }
